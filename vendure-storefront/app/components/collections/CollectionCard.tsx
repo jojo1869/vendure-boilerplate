@@ -12,11 +12,10 @@ export function CollectionCard({
       prefetch="intent"
       key={collection.id}
       className="max-w-[400px] relative rounded-lg overflow-hidden hover:opacity-75 xl:w-auto"
-      unstable_viewTransition
     >
       <span aria-hidden="true" className="">
         <div className="w-full h-full object-center object-cover">
-          <img src={collection.featuredAsset?.preview + '?w=300&h=300'} />
+          <img src={collection.featuredAsset?.preview + '?w=400&h=400'} />
         </div>
       </span>
       <span

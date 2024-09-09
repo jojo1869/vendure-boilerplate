@@ -19,7 +19,7 @@ export function ProductCard({
       unstable_viewTransition
     >
       <img
-        className="rounded-xl flex-grow object-cover aspect-[7/8]"
+        className="rounded-xl flex-grow object-cover aspect-[1]"
         alt=""
         src={productAsset?.preview + '?w=400&h=400'}
         style={
