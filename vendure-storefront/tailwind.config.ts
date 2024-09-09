@@ -3,7 +3,11 @@ import type { Config } from 'tailwindcss';
 
 export default {
   content: ['./app/**/*.{js,ts,jsx,tsx}'],
-  plugins: [require('@tailwindcss/forms')],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/aspect-ratio')
+
+  ],
   important: '#app',
 
   theme: {
