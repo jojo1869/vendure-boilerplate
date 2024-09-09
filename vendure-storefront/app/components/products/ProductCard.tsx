@@ -22,7 +22,7 @@ export function ProductCard({
         className="rounded-xl flex-grow object-cover aspect-[7/8]"
         alt=""
         src={productAsset?.preview + '?w=400&h=400'}
-        style{
+        style={
           {
             viewTransitionName: isTransitioning ? 'image-expand' : '',
           } 
