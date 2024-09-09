@@ -140,7 +140,7 @@ export default function ProductSlug() {
                   >
                     <img
                       draggable="false"
-                      className="rounded-lg select-none h-24 w-full object-cover"
+                      className="rounded-lg select-none h-full w-full object-cover"
                       src={
                         asset.preview +
                         '?preset=full' /* not ideal, but technically prevents loading 2 seperate images */
