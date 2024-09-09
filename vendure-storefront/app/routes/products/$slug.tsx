@@ -116,6 +116,9 @@ export default function ProductSlug() {
                   }
                   alt={product.name}
                   className="w-full h-full object-center object-cover rounded-lg"
+                  style={{
+                    viewTransitionName: 'image-expand',
+                  } as any}                
                 />
               </div>
             </span>
