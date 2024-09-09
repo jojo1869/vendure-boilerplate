@@ -4,9 +4,7 @@ import type { Config } from 'tailwindcss';
 export default {
   content: ['./app/**/*.{js,ts,jsx,tsx}'],
   plugins: [
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/aspect-ratio')
-
+    require('@tailwindcss/forms')
   ],
   important: '#app',
 
