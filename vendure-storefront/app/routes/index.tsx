@@ -45,17 +45,17 @@ export default function Index() {
           <p className="mt-4 text-2xl text-white">
             {t('vendure.intro')}{' '}
             <a
-              href="https://www.vendure.io"
+              href="https://www.peakvinta.ge"
               className="text-blue-300 hover:text-blue-500"
             >
-              Vendure
+              Peak
             </a>{' '}
             &{' '}
             <a
               href="~/routes/__cart/index"
               className="text-red-300 hover:text-red-500"
             >
-              Remix
+              Vintage
             </a>
           </p>
           <p className="mt-4 text-gray-300 space-x-1">
